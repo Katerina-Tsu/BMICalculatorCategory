@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class OverweightCategoryTest {
+
     @Test
     public void calculateOverweight() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");

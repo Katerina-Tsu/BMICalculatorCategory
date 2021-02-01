@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class NormalCategoryTest {
+
     @Test
     public void calculateNormal() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
